@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    font-family: Arial;
+}
+
+.sidebar {
+    width: 200px;
+    background: purple;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 20px 0;
+}
+
+.main {
+    padding: 20px;
+    flex: 1;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+}

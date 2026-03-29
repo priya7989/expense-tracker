@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sidebar">
+    <h2>Expense Tracker</h2>
+
+    <!-- Welcome message -->
+    <h3 id="welcome"></h3>
+
+    <ul>
+        <li>Dashboard</li>
+        <li>Transactions</li>
+        <li>Cards</li>
+        <li>Settings</li>
+    </ul>
+
+    <!-- Logout button -->
+    <button onclick="logout()">Logout</button>
+</div>
+
+<div class="main">
+    <h1>Dashboard</h1>
+
+    <div class="cards">
+        <div class="card">Balance: $8200</div>
+        <div class="card">Income: $1550</div>
+        <div class="card">Expenses: $5210</div>
+    </div>
+
+    <table id="expenseTable">
+        <tr>
+            <th>Name</th>
+            <th>Date</th>
+            <th>Amount</th>
+        </tr>
+        <tr>
+            <td>Amazon</td>
+            <td>02-06-2023</td>
+            <td>$43</td>
+        </tr>
+    </table>
+</div>
+
+<!-- 🔥 IMPORTANT: Link JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
